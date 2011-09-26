@@ -51,20 +51,7 @@
 	    	</script>
 	 <script type="text/javascript" src="js/jcanvas/jcanvas.min.js"></script>
 	 	<script type="text/javascript" src="js/functions.js"></script>
-<!-- 	  <script type="text/javascript" src="js/supersized.3.1.3.core.js"></script> -->
 	 <script type="text/javascript"> 
-			/*
- $(function(){
-			 			$.supersized({
-							//Background image
-							slides	:  [ { image : 'img/bkgd.jpg' } ],
-							min_width		        :   1000,	//Min width allowed (in pixels)
-							min_height		        :   700,	//Min height allowed (in pixels)
-							fit_portrait         	:   1,		//Portrait images will not exceed browser height
-							fit_landscape			:   0		//Landscape images will not exceed browser width				
-						});
-			 });//END Doc Ready
-*/
 	 </script>
 </body>
 </html>
