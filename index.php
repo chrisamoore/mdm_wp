@@ -8,7 +8,9 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css"media="screen" />
 	<link rel="stylesheet" type="text/css" href="css/media-queries.css"media="screen" />
 	<link rel="stylesheet" type="text/css" href="css/supersized.core.css" media="screen"/>
-	
+	<link media="screen" rel="stylesheet" href="css/colorbox.css" />
+	<link type="text/css" href="css/custom-theme/jquery-ui-1.8.16.custom.css" rel="stylesheet" />	
+
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 	<link href='http://fonts.googleapis.com/css?family=Droid+Serif:700,400,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -30,7 +32,7 @@
 				<h2> Melvin Dalton McGEE ARCHITECTS, INC.</h2>
 				<nav>
 					<a href="#">ABOUT</a>
-					<a href="#">PROJECTS</a>
+					<a class="example5" href="ajax.html" title="Projects">PROJECTS</a>
 					<a href="#">PRESS</a>
 					<a href="#">CONTACT</a>
 					<div class="clearfix"></div>
@@ -50,8 +52,8 @@
 	    		google.load('jquery', '1');
 	    	</script>
 	 <script type="text/javascript" src="js/jcanvas/jcanvas.min.js"></script>
-	 	<script type="text/javascript" src="js/functions.js"></script>
-	 <script type="text/javascript"> 
-	 </script>
+	 <script type="text/javascript" src="js/jquery.colorbox-min.js"></script>		
+	 <script type="text/javascript" src="js/functions.js"></script>
+
 </body>
 </html>

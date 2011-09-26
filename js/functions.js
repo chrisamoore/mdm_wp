@@ -1,4 +1,7 @@
 $(function(){
+	// AJAX Color box
+	$(".example5").colorbox();
+	
 	// cursor to icon 
 	$('body').mouseout(function(){
                $('#mycursor').hide();
@@ -68,5 +71,14 @@ $(function(){
 	$('#tab').click(function (){
 		 $("#tab-content").slideToggle("slow");
 	});
-
+		
+	// set overlay height
+		var docheight = $(document).height();
+		var third= $(document).height()/6;
+		var sixth = $(document).height()/12;
+		var dh = docheight - third ; 
+		
+	$('#cboxOverlay').css('height', dh);
+	$('#cboxOverlay').css('margin-top', sixth );
+	
 });//END Doc Ready
