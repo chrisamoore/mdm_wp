@@ -28,12 +28,13 @@
 		<section id="content">
 			<header>
 				<!-- <a href="#"><img class="logo" src="imgs/logo.png"/></a> -->
-				<h2> Melvin Dalton McGEE ARCHITECTS, INC.</h2>
+				<h1> Melvin Dalton McGEE ARCHITECTS, INC.</h1>
+				<hr/>
 				<nav>
-					<a href="#">ABOUT</a>
-					<a class="example5" href="ajax.html" title="Projects">PROJECTS</a>
-					<a href="#">PRESS</a>
-					<a href="#">CONTACT</a>
+					<a class="example5" href="about.php" title="About">ABOUT</a>
+					<a class="example5" href="projects.php" title="Projects">PROJECTS</a>
+					<a class="example5" href="press.php" title="Press">PRESS</a>
+					<a class="example5" href="contact.php" title="Contact">CONTACT</a>
 					<div class="clearfix"></div>
 				</nav>	
 			</header>
@@ -46,15 +47,13 @@
 	 <div id="tab" class="slide-out-div">
  		<a class="handle">+</a>
         <div id="tab-content">
-				<!--
-<img src="img/dog_gray.png" class="stamp"/>
-				<img src="img/strat_gray.png" class="stamp"/>
-				<img src="img/man_gray.png" class="stamp"/>
-				<div class="stamp color"></div>
-				<div class="stamp color"></div>
-				<div class="stamp color"></div>
--->
-			</div>	
+				<img src="img/tab_dog.png" class="stamp" title="dog"/>
+				<img src="img/tab_strat.png" class="stamp" title="strat"/>
+				<img src="img/tab_man.png" class="stamp" title="man"/>
+				<div class="stamp color" id="red" title="red"></div>
+				<div class="stamp color" id="orange" title="orange"></div>
+				<div class="stamp color" id="green" title="green"></div>
+		</div>	
     </div>
 	 <script type="text/javascript" src="http://www.google.com/jsapi"></script>
 	    	<script type="text/javascript">
@@ -63,6 +62,7 @@
 	 	 <script type="text/javascript" src="js/jcanvas/jcanvas.min.js"></script>
 	 <script type="text/javascript" src="js/jquery.colorbox-min.js"></script>		
 	 <script type="text/javascript" src="js/jquery.tabSlideOut.v1.3.js"></script>	
+	 <script type="text/javascript" src="js/jquery.masonry.min.js"></script>
 	 <script type="text/javascript" src="js/functions.js"></script>
 </body>
 </html>

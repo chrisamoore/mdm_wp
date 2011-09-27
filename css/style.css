@@ -31,7 +31,7 @@ a:active 			{ outline: none; position: relative; top: 2px; }
 \*------------------------------------*/
 @import url(http://fonts.googleapis.com/css?family=Josefin+Sans);
 body 				{ 
-	 color: #222; font-family: 'Josefin Sans', sans-serif; font-size: 16px; 
+	 color: #3b3b3b; font-family: 'Josefin Sans', sans-serif; font-size: 16px; 
 	-webkit-transition-property: font-size;
 	-moz-transition-property: font-size;
 	transition-property: font-size;
@@ -46,7 +46,7 @@ body 				{
 #wrapper 			{ margin: 10px auto; max-width: 980px; width: 90%; background: #fff; padding: 10px 0; }
 header 				{ padding: 3px; }
 
-h1 					{ font-size: 90px; font-family: 'Droid Serif', serif; line-height: 75px; padding: 10px; 
+h1 					{ font-size: 20px; font-family: 'Josefin Sans', sans-serif; line-height: 35px; padding: 10px; 
 	-webkit-transition-property: font-size;
 	-moz-transition-property: font-size;
 	transition-property: font-size;
@@ -70,15 +70,15 @@ h2 					{ font-family: 'Helvetica'; font-size: 18px; padding: 10px;
 	-moz-transition-timing function: linear, ease-in; 
 	transition-timing function: linear, ease-in;
 }
-h3 					{ font-family: 'Droid Serif', serif; font-size: 30px; }
-h4 					{ font-family: 'Droid Serif', serif; padding: 3px; margin: 5px 0 0 0; }
+h3 					{ font-family: 'Josefin Sans', sans-serif; font-size: 30px; }
+h4 					{ font-family: 'Josefin Sans', sans-serif; padding: 3px; margin: 5px 0 0 0; }
 h4 a 				{ text-decoration: underline; }
 h4 a:hover 			{  }
 
-nav 				{ background: #222; padding: 0; margin: 10px 0;}
-nav a 				{ color: #F9F9F9; display: block; float: left; padding: 10px; }
-nav a:visited 		{ color: #f9f9f9; }
-nav a:hover			{ text-decoration: none; background: #27B3CF; }
+nav 				{ padding: 0; margin: 10px 0;}
+nav a 				{ color: #3b3b3b; display: block; float: left; padding: 10px; }
+nav a:visited 		{ color: #3b3b3b; }
+nav a:hover			{ text-decoration: none; color: #808285; }
 nav a:active		{ position: relative; top: 0; }
 
 .left-col 			{ width: 70%; float: left; }
@@ -107,6 +107,8 @@ footer 				{ padding: 5px; }
 
 pre					{ overflow: scroll; font-size: 10px; }
 img                 {border: none; margin: 0; padding: 0;}
+
+hr 					{ border-top: 2px solid #808285;border-style: solid; }
 /*------------------------------------*\
   logo
 \*------------------------------------*/
@@ -129,12 +131,8 @@ footer {
 }
 #content { padding-bottom: 3em; }
 #tab{
-		/*
-float: right;
-		position: relative;
-		top: -272px;
-*/
-		width: 76px;
+
+		width: 56px;
 		padding-bottom: 5px;
 		background: url(../img/tab_bkgd.png) ;
 	}
@@ -143,17 +141,28 @@ float: right;
 		clear: none;
 		float: left;
 		width: 76px;
-		height: 191px;
-		background: url(../img/tab-content.png) no-repeat;
+		height: 165px;
 	}
 	.stamp, .color{
-		background: aqua;
+		float: left;
 		clear: both;
-		width: 76px;
-		height: 30px;
 		margin-top: 5px;
 	}
-
+	.color{
+		height: 12px; 
+		width: 36px;
+		}
+		
+		#orange{
+			background  :#e3a51f  /*orange*/					
+		}
+		
+		#red{
+			background : #e33f1f; /* red */
+		}
+		#green{
+			background  : #0f941b; /* green */
+		}
 /*------------------------------------*\
   Canvas BKGD
 \*------------------------------------*/
@@ -167,4 +176,11 @@ float: right;
         position: absolute;
         z-index: 9999;
     }
-    
+/*------------------------------------*\
+  PRESS
+\*------------------------------------*/
+#modal{
+	width: 958px;
+	height: 509px;
+}
+

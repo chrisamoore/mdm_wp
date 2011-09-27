@@ -1,8 +1,16 @@
 $(function(){
+	var varX;
+	// Tab buttons to set vars
+    	$('#tab-content > *').click(function(){
+    		// Get Variable for tab item 
+    		varX = $(this).attr('title');
+    		// Now to swap out cursor and stamp for this item and set color
+    		/* console.log(varX); */
+    	});
+	
 	// AJAX Color box
 	$(".example5").colorbox();
 
-		
 	// cursor to icon 
 	$('body').mouseout(function(){
                $('#mycursor').hide();
@@ -16,7 +24,7 @@ $(function(){
                $('#mycursor').css('left', e.clientX - 20).css('top', e.clientY + 7);
      });
 	// set the cursor default
-	var cursor = 'cursor';
+	var cursor = 'dog_cursor';
 	
 	// update the cursor
 	function mouse(mouseVar){
@@ -27,8 +35,8 @@ $(function(){
 	
 	
 	// set canvas to fullscreen
- 	$("canvas").attr('height',$(document).height());
-	$("canvas").attr('width', $(document).width());
+ 	$("canvas").attr('height',$(window).height());
+	$("canvas").attr('width', $(window).width());
 
 	//load bkgd img to canvas
 	function dwg(){
@@ -45,7 +53,7 @@ $(function(){
 	// fire stamp function 
 	function stamp(){
 			$("canvas").drawImage({
-		  		source: "img/dog.png",
+		  		source: "img/"+ varX +"_stamp.png",
 		 		x: $.mynamespace.xpos, 
 		 		y: $.mynamespace.ypos
 			});
@@ -54,8 +62,8 @@ $(function(){
 	// resize window event
 	$(window).resize(function(){
 			//console.log($(window).height()+', '+$(window).width());
-			$("canvas").attr('height',$(document).height());
-			$("canvas").attr('width', $(document).width());
+			$("canvas").attr('height',$(window).height());
+			$("canvas").attr('width', $(window).width());
 			dwg();
 		});
 		
@@ -76,21 +84,25 @@ $(function(){
 		 });
 	$(document).click(function (){
 		// log function
-		//stamp();
+			console.log(varX)
+		stamp();
 	});
+	
 	// set math for position from top
 	// slide out tab 
 	 $('.slide-out-div').tabSlideOut({
-                 tabHandle: '.handle',                              //class of the element that will be your tab
-                 pathToTabImage: 'img/plus.png',          //path to the image for the tab (optionaly can be set using css)
-                 imageHeight: '211px',                               //height of tab image
-                 imageWidth: '17px',                               //width of tab image    
-                 tabLocation: 'right',                               //side of screen where tab lives, top, right, bottom, or left
-                 speed: 300,                                        //speed of animation
-                 action: 'click',                                   //options: 'click' or 'hover', action to trigger animation
-                 topPos: '400px',                                   //position from the top
-                 fixedPosition: false                               //options: true makes it stick(fixed position) on scroll
+                 tabHandle: '.handle',           //class of the element that will be your tab
+                 pathToTabImage: 'img/plus.png', //path to the image for the tab (optionaly can be set using css)
+                 imageHeight: '185px',           //height of tab image
+                 imageWidth: '17px',             //width of tab image    
+                 tabLocation: 'right',           //side of screen where tab lives, top, right, bottom, or left
+                 speed: 300,                     //speed of animation
+                 action: 'click',                //options: 'click' or 'hover', action to trigger animation
+                 topPos: '400px',                //position from the top
+                 fixedPosition: false            //options: true makes it stick(fixed position) on scroll
              });
+      
+             
 	// set overlay height
 		var docheight = $(document).height();
 		var third= $(document).height()/6;
