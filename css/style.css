@@ -4,6 +4,17 @@ Theme URI: studioconover.com
 Version: 1.0
 Author: Christopher Moore at StudioConover
 */
+/*------------------------------------*\
+  Colors
+orange: #e3a51f
+red   : #e33f1f
+green : #0f941b
+gray  : #818285
+TEXT 
+	Dark-gray:  #3b3b3b
+	Light-gray: #808285
+\*------------------------------------*/
+
 
 ::-moz-selection 	{ background-color: #91D8f7; color: #fff; }
 ::selection 		{ background-color: #91D8f7; color: #fff; }
@@ -18,10 +29,9 @@ a:active 			{ outline: none; position: relative; top: 2px; }
 /*------------------------------------*\
   MAIN
 \*------------------------------------*/
-
-
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans);
 body 				{ 
-	 color: #222; font-family: 'Droid Serif', serif; font-size: 16px; 
+	 color: #222; font-family: 'Josefin Sans', sans-serif; font-size: 16px; 
 	-webkit-transition-property: font-size;
 	-moz-transition-property: font-size;
 	transition-property: font-size;
@@ -155,6 +165,6 @@ float: right;
        padding: 5px;
         width: 96px;
         position: absolute;
-        z-index: 99;
+        z-index: 9999;
     }
     
