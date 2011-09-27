@@ -1,7 +1,8 @@
 $(function(){
 	// AJAX Color box
 	$(".example5").colorbox();
-	
+
+		
 	// cursor to icon 
 	$('body').mouseout(function(){
                $('#mycursor').hide();
@@ -14,7 +15,17 @@ $(function(){
           $('#canvas').mousemove(function(e){
                $('#mycursor').css('left', e.clientX - 20).css('top', e.clientY + 7);
      });
-
+	// set the cursor default
+	var cursor = 'cursor';
+	
+	// update the cursor
+	function mouse(mouseVar){
+			$('body').css('cursor', 'url(img/' + mouseVar + '.png), none');
+		}
+	// fire the cursor
+	//mouse(cursor);
+	
+	
 	// set canvas to fullscreen
  	$("canvas").attr('height',$(document).height());
 	$("canvas").attr('width', $(document).width());

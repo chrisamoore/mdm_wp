@@ -1,7 +1,8 @@
-/*
-Project Name: Create a Responsive Web Design Template
-Author: Harry Atkins
-Published on: http://www.onextrapixel.com/
+/*  
+Theme Name: MDM Architect
+Theme URI: studioconover.com
+Version: 1.0
+Author: Christopher Moore at StudioConover
 */
 
 ::-moz-selection 	{ background-color: #91D8f7; color: #fff; }
@@ -96,7 +97,7 @@ footer 				{ padding: 5px; }
 
 pre					{ overflow: scroll; font-size: 10px; }
 /*------------------------------------*\
-  MAIN
+  logo
 \*------------------------------------*/
 .logo{
 float: left;
@@ -127,23 +128,9 @@ footer {
 		text-align: center;
 	}
 /*------------------------------------*\
-  STICKY FOOTER 
-\*------------------------------------*/
-/*------------------------------------*\
   Canvas BKGD
 \*------------------------------------*/
-canvas{
-	background: #ffffff;
-	padding: 0;
-	position: absolute;
-	cursor: url(../imgs/cursor.png), none;
-	/* opacity: 0.2; */
-}
 #canvas{
 	position: absolute 0 0; 
-	z-index: 0;
-    
+	z-index: 0;    
 }
-/*------------------------------------*\
-  Canvas BKGD
-\*------------------------------------*/

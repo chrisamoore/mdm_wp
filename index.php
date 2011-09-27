@@ -17,12 +17,12 @@
 	<!--[if IE]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
-		
 </head>
 <body>
 	<div id="canvas">
 		<canvas height="" width="" id="supersized" >
-			Uh... You should update your browser. <a href="http://browsehappy.com/">Browse Happy</a>
+			Uh... Maybe you should update your browser. 
+			<a href="http://browsehappy.com/">Browse Happy</a>
 		</canvas>
 	</div>
 	<div id="container">
@@ -51,9 +51,10 @@
 	    	<script type="text/javascript">
 	    		google.load('jquery', '1');
 	    	</script>
-	 <script type="text/javascript" src="js/jcanvas/jcanvas.min.js"></script>
+	 	 <script type="text/javascript" src="js/jcanvas/jcanvas.min.js"></script>
 	 <script type="text/javascript" src="js/jquery.colorbox-min.js"></script>		
 	 <script type="text/javascript" src="js/functions.js"></script>
+	
 
 </body>
 </html>
