@@ -4,11 +4,10 @@
 	<meta charset="utf-8" />
 	<title>MDM Architects</title>
 	
+	<link rel="stylesheet" type="text/css" href="css/supersized.core.css" media="screen"/>
 	<link rel="stylesheet" type="text/css" href="css/reset.css"media="screen" />
 	<link rel="stylesheet" type="text/css" href="css/style.css"media="screen" />
 	<link rel="stylesheet" type="text/css" href="css/media-queries.css"media="screen" />
-	<link rel="stylesheet" type="text/css" href="css/supersized.core.css" media="screen"/>
-	<link media="screen" rel="stylesheet" href="css/colorbox.css" />
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
@@ -16,8 +15,17 @@
 	<!--[if IE]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
+	
 </head>
 <body>
+	<!-- Modal Window -->
+	<div id="boxes">
+	    <div id="modal" class="window"> 
+	    	 <a href="#" class="close">X</a>
+	    </div>
+	    <div id="mask"></div>
+	</div>
+	<!-- Modal Window -->
 	<div id="canvas">
 		<canvas height="" width="" id="supersized" >
 			Uh... Maybe you should update your browser. 
@@ -31,10 +39,10 @@
 				<h1> Melvin Dalton McGEE ARCHITECTS, INC.</h1>
 				<hr/>
 				<nav>
-					<a class="example5" href="about.php" title="About">ABOUT</a>
-					<a class="example5" href="projects.php" title="Projects">PROJECTS</a>
-					<a class="example5" href="press.php" title="Press">PRESS</a>
-					<a class="example5" href="contact.php" title="Contact">CONTACT</a>
+					<a href="#modal" name="modal" title="About">ABOUT</a>
+					<a href="#modal" name="modal" title="Projects">PROJECTS</a>
+					<a href="#modal" name="modal" title="Press">PRESS</a>
+					<a href="#modal" name="modal" title="Contact">CONTACT</a>
 					<div class="clearfix"></div>
 				</nav>	
 			</header>
@@ -60,9 +68,8 @@
 	    		google.load('jquery', '1.4');
 	    	</script>
 	 	 <script type="text/javascript" src="js/jcanvas/jcanvas.min.js"></script>
-	 <script type="text/javascript" src="js/jquery.colorbox-min.js"></script>		
 	 <script type="text/javascript" src="js/jquery.tabSlideOut.v1.3.js"></script>	
 	 <script type="text/javascript" src="js/masonry.js"></script>
 	 <script type="text/javascript" src="js/functions.js"></script>
-</body>
+	</body>
 </html>

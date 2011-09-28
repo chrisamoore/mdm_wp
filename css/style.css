@@ -195,3 +195,29 @@ figcaption{
 	clear: none;
 	padding-top: 65px;
 }
+/*------------------------------------*\
+  Modal
+\*------------------------------------*/
+
+/* Z-index of #mask must lower than #boxes .window */
+#mask {
+  position:absolute;
+  z-index:9000;
+  background:url(images/diag_line_w.png);
+  display:none;
+}
+   
+#boxes .window {
+  position:absolute;
+  width:440px;
+  height:200px;
+  display:none;
+  z-index:9999;
+  padding:20px;
+}
+ /* Customize your modal window here, you can add background image too */
+#boxes #modal {
+  width:900px; 
+  height:574px;
+  background: url(../img/tab_bkgd.png) ;
+}
