@@ -4,6 +4,10 @@ $(function(){
 	var pageVar;
 	var cursor;
 	
+	/*== HIDE SCROLL BARS ==*/
+	$("html").css("overflow", "hidden");
+	$("html").css("overflow", "auto");
+	
 	/*== MODAL WINDOW ==*/
 	//select all the a tag with name equal to modal
     $('a[name=modal]').click(function(e) {
@@ -13,8 +17,8 @@ $(function(){
         var id = $(this).attr('href');
      
      	// set overlay height
-		var docheight = $(document).height();
-		var fourth = $(document).height()/4;
+		var docheight = $(window).height();
+		var fourth = $(window).height()/4;
 		var dh = docheight - fourth ; 
      
         //Get the screen height and width
@@ -41,7 +45,7 @@ $(function(){
         //transition effect
         $(id).fadeIn(2000); 
      
-    });
+    }); 
      
     //if close button is clicked
     $('.window .close').click(function (e) {
@@ -54,9 +58,9 @@ $(function(){
     $('#mask').click(function () {
         $(this).hide();
         $('.window').hide();
-    });         
-	/*== MODAL WINDOW ==*/
-
+    });     
+        
+	/*== PRESS PAGE - MASONRY ==*/
 	// Masonry 
 	$('.press').masonry({
 		  itemSelector: '.box',
@@ -120,12 +124,13 @@ $(function(){
 		  		source: "img/bkgd.jpg",
 		 		x: 0, 
 		 		y: 0, 
-		 		height : $(document).height(),
-		 		width : $(document).width(),
+		 		height : $(window).height(),
+		 		width : $(window).width(),
 		 		fromCenter: false
 			});
 		}
 	dwg();
+	
 	// fire stamp function 
 	function stamp(){
 			$("canvas").drawImage({
@@ -158,13 +163,12 @@ $(function(){
 				 height : 200
 		 	}; 
 		 });
+		 
 	$(document).click(function (){
-		// log function
-			//console.log(varX)
+		// fire off stamp
 		stamp();
 	});
 	
-	// set math for position from top
 	// slide out tab 
 	 $('.slide-out-div').tabSlideOut({
                  tabHandle: '.handle',           //class of the element that will be your tab
@@ -177,8 +181,5 @@ $(function(){
                  topPos: '400px',                //position from the top
                  fixedPosition: false            //options: true makes it stick(fixed position) on scroll
              });
-      
-             
-
-	
+      	
 });//END Doc Ready

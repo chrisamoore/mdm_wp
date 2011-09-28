@@ -170,6 +170,10 @@ footer {
 	position: absolute 0 0; 
 	z-index: 0;    
 }
+#supersized { position:fixed; left:0; top:0; overflow:hidden; z-index:-999; height:100%; width:100%; }
+/*------------------------------------*\
+  Slide Tab
+\*------------------------------------*/
   .slide-out-div {
        padding: 5px;
         width: 96px;

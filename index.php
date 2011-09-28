@@ -4,7 +4,6 @@
 	<meta charset="utf-8" />
 	<title>MDM Architects</title>
 	
-	<link rel="stylesheet" type="text/css" href="css/supersized.core.css" media="screen"/>
 	<link rel="stylesheet" type="text/css" href="css/reset.css"media="screen" />
 	<link rel="stylesheet" type="text/css" href="css/style.css"media="screen" />
 	<link rel="stylesheet" type="text/css" href="css/media-queries.css"media="screen" />
@@ -67,9 +66,9 @@
     </div>
 	 <script type="text/javascript" src="http://www.google.com/jsapi"></script>
 	    	<script type="text/javascript">
-	    		google.load('jquery', '1.4');
+	    		google.load('jquery', '1');
 	    	</script>
-	 	 <script type="text/javascript" src="js/jcanvas/jcanvas.min.js"></script>
+	 	 <script type="text/javascript" src="js/jcanvas.min.js"></script>
 	 <script type="text/javascript" src="js/jquery.tabSlideOut.v1.3.js"></script>	
 	 <script type="text/javascript" src="js/masonry.js"></script>
 	 <script type="text/javascript" src="js/functions.js"></script>
