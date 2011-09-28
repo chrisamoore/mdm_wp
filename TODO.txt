@@ -3,20 +3,22 @@ TODO.txt
 	media queries
 	
 	modal media queries
+	browser resize modal 
 	clean up bkgd stripes (CSS3)
 	
 	press page masonry juggle animation
 	
-	about page 
+	about page   // waiting on Creative 
 	projects page 
-	contact page 
+	contact page  // waiting on Creative
 	hr inset look 
 	add logo 
 	
-	add stamps 
-	add color selection
+	add stamps // need images
+	add color selection // 
 	add tool tip to tab 
-	remove scroll bar 
+	
+	Create gallery
 	
 	clean up CSS 
 		convert to less.js 
@@ -25,3 +27,4 @@ TODO.txt
 	Add WP 
 	image upload settings 
 	
+	SEO 

@@ -90,7 +90,7 @@ $(function(){
     		 $.ajax({
  	        		  type: "POST",
  	        		  data: '',
-					  url: pageVar + '.php',
+					  url: 'pages/' + pageVar + '.php',
 					  success: function(data) 
 					  	{
 					  			$('#ajax-content').empty();
