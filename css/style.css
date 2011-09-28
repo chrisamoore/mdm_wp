@@ -180,7 +180,18 @@ footer {
   PRESS
 \*------------------------------------*/
 #modal{
-	width: 958px;
-	height: 509px;
+	width: 780px;
+	height: 519px;
+	overflow: hidden;
+	padding: 20px;
 }
-
+.box {
+  width: 240px;
+  margin: 10px;
+  float: left;
+}
+figcaption{
+	float: right;
+	clear: none;
+	padding-top: 65px;
+}

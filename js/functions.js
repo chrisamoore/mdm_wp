@@ -1,4 +1,10 @@
 $(function(){
+	$('.press').masonry({
+		  itemSelector: '.box',
+		  columnWidth: 100,
+		  isAnimated: true
+		});
+
 	var varX;
 	// Tab buttons to set vars
     	$('#tab-content > *').click(function(){

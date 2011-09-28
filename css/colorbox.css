@@ -22,7 +22,9 @@
 #cboxOverlay{background:url(images/diag_line_w.png);}
 /*diag line images*/
 #colorbox{}
-    #cboxTopLeft{width:14px; height:14px; background:url(images/controls.png) no-repeat 0 0;}
+
+    /*
+#cboxTopLeft{width:14px; height:14px; background:url(images/controls.png) no-repeat 0 0;}
     #cboxTopCenter{height:14px; background:url(images/border.png) repeat-x top left;}
     #cboxTopRight{width:14px; height:14px; background:url(images/controls.png) no-repeat -36px 0;}
     #cboxBottomLeft{width:14px; height:43px; background:url(images/controls.png) no-repeat 0 -32px;}
@@ -30,11 +32,15 @@
     #cboxBottomRight{width:14px; height:43px; background:url(images/controls.png) no-repeat -36px -32px;}
     #cboxMiddleLeft{width:14px; background:url(images/controls.png) repeat-y -175px 0;}
     #cboxMiddleRight{width:14px; background:url(images/controls.png) repeat-y -211px 0;}
-    #cboxContent{background:#fff; overflow:visible;}
-        #cboxLoadedContent{margin-bottom:5px;}
+*/
+    
+		#cboxContent{background: rgba(54, 54, 54, 0.5); overflow:hidden;}
+        #cboxLoadedContent{margin-bottom:5px;}    
         #cboxLoadingOverlay{background:url(images/loading_background.png) no-repeat center center;}
         #cboxLoadingGraphic{background:url(images/loading.gif) no-repeat center center;}
-        #cboxTitle{position:absolute; bottom:-25px; left:0; text-align:center; width:100%; font-weight:bold; color:#7C7C7C;}
+        
+      /*
+  #cboxTitle{position:absolute; bottom:-25px; left:0; text-align:center; width:100%; font-weight:bold; color:#7C7C7C;}
         #cboxCurrent{position:absolute; bottom:-25px; left:58px; font-weight:bold; color:#7C7C7C;}
         
         #cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow{position:absolute; bottom:-29px; background:url(images/controls.png) no-repeat 0px 0px; width:23px; height:23px; text-indent:-9999px;}
@@ -49,3 +55,4 @@
         .cboxSlideshow_on #cboxSlideshow.hover{background-position:-150px 0px;}
         .cboxSlideshow_off #cboxSlideshow{background-position:-150px -25px; right:27px;}
         .cboxSlideshow_off #cboxSlideshow.hover{background-position:-125px 0px;}
+*/

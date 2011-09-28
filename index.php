@@ -62,7 +62,7 @@
 	 	 <script type="text/javascript" src="js/jcanvas/jcanvas.min.js"></script>
 	 <script type="text/javascript" src="js/jquery.colorbox-min.js"></script>		
 	 <script type="text/javascript" src="js/jquery.tabSlideOut.v1.3.js"></script>	
-	 <script type="text/javascript" src="js/jquery.masonry.min.js"></script>
+	 <script type="text/javascript" src="js/masonry.js"></script>
 	 <script type="text/javascript" src="js/functions.js"></script>
 </body>
 </html>
