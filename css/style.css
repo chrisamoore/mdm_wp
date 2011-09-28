@@ -128,7 +128,18 @@ footer {
  background: url(../img/tab_bkgd.png) ;
 }
 #content { padding-bottom: 3em; }
-#tab{
+/*------------------------------------*\
+  Canvas BKGD
+\*------------------------------------*/
+#canvas{
+	position: absolute 0 0; 
+	z-index: 0;    
+}
+#supersized { position:fixed; left:0; top:0; overflow:hidden; z-index:-999; height:100%; width:100%; }
+/*------------------------------------*\
+  Slide Tab
+\*------------------------------------*/
+  #tab{
 
 		width: 56px;
 		padding-bottom: 5px;
@@ -161,18 +172,7 @@ footer {
 		#green{
 			background  : #0f941b; /* green */
 		}
-/*------------------------------------*\
-  Canvas BKGD
-\*------------------------------------*/
-#canvas{
-	position: absolute 0 0; 
-	z-index: 0;    
-}
-#supersized { position:fixed; left:0; top:0; overflow:hidden; z-index:-999; height:100%; width:100%; }
-/*------------------------------------*\
-  Slide Tab
-\*------------------------------------*/
-  .slide-out-div {
+	.slide-out-div {
        padding: 5px;
         width: 96px;
         position: absolute;
@@ -183,14 +183,9 @@ footer {
   bottom: 4em;
   }
 /*------------------------------------*\
-  PRESS
+  PRESS - Masonry 
 \*------------------------------------*/
-#modal{
-	width: 780px;
-	height: 519px;
-	overflow: hidden;
-	padding: 20px;
-}
+
 .box {
   width: 240px;
   margin: 10px;
@@ -226,8 +221,14 @@ figcaption{
   height:574px;
   background: url(../img/tab_bkgd.png) ;
 }
-#modal a{
-	float: right;
+#modal{
+	width: 780px;
+	height: 519px;
+	overflow: hidden;
+	padding: 20px;
+}
+	#modal a{
+		float: right;
 }
 #page{
 	background:transparent;

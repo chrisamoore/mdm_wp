@@ -14,10 +14,7 @@
 	<!--[if IE]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
-	<style>
- body {width:100%; height:100%; overflow:hidden, margin:0}
- html {width:100%; height:100%; overflow:hidden}
-</style>
+
 </head>
 <body>
 	<!-- Modal Window -->
