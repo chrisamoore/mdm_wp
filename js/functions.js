@@ -116,6 +116,6 @@ $(function(){
 		var dh = docheight - third ; 
 		
 	$('#cboxOverlay').css('height', dh);
-	$('#cboxOverlay').css('margin-top', sixth );
+	$('#cboxOverlay').css('margin-top', '100px');
 	
 });//END Doc Ready

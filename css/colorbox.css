@@ -34,7 +34,7 @@
     #cboxMiddleRight{width:14px; background:url(images/controls.png) repeat-y -211px 0;}
 */
     
-		#cboxContent{background: rgba(54, 54, 54, 0.5); overflow:hidden;}
+		#cboxContent{background: url(../img/tab_bkgd.png) ; overflow:hidden;}
         #cboxLoadedContent{margin-bottom:5px;}    
         #cboxLoadingOverlay{background:url(images/loading_background.png) no-repeat center center;}
         #cboxLoadingGraphic{background:url(images/loading.gif) no-repeat center center;}
