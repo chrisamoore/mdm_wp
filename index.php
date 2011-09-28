@@ -7,14 +7,17 @@
 	<link rel="stylesheet" type="text/css" href="css/reset.css"media="screen" />
 	<link rel="stylesheet" type="text/css" href="css/style.css"media="screen" />
 	<link rel="stylesheet" type="text/css" href="css/media-queries.css"media="screen" />
-
+	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 	<link href='http://fonts.googleapis.com/css?family=Droid+Serif:700,400,400italic,700italic' rel='stylesheet' type='text/css'>
 	<!--[if IE]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
-	
+	<style>
+ body {width:100%; height:100%; overflow:hidden, margin:0}
+ html {width:100%; height:100%; overflow:hidden}
+</style>
 </head>
 <body>
 	<!-- Modal Window -->
@@ -64,13 +67,13 @@
 				<div class="stamp color" id="green" title="green"></div>
 		</div>	
     </div>
-	 <script type="text/javascript" src="http://www.google.com/jsapi"></script>
-	    	<script type="text/javascript">
-	    		google.load('jquery', '1');
-	    	</script>
-	 	 <script type="text/javascript" src="js/jcanvas.min.js"></script>
-	 <script type="text/javascript" src="js/jquery.tabSlideOut.v1.3.js"></script>	
-	 <script type="text/javascript" src="js/masonry.js"></script>
-	 <script type="text/javascript" src="js/functions.js"></script>
+	<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+	<script type="text/javascript">
+		google.load('jquery', '1');
+	</script>
+		 <script type="text/javascript" src="js/jcanvas.min.js"></script>
+		 <script type="text/javascript" src="js/jquery.tabSlideOut.v1.3.js"></script>	
+		 <script type="text/javascript" src="js/masonry.js"></script>
+		 <script type="text/javascript" src="js/functions.js"></script>
 	</body>
 </html>
