@@ -1,4 +1,4 @@
-<section id="modal" class="press">
+<section id="page" class="press">
 		<figure class="box">
 			<figcaption>
 				<strong>MAGAZINE NAME</strong><br/>

@@ -7,11 +7,7 @@
 @media screen and (max-width: 740px) 	{
 	.left-col { width: 100%; }
 	.sidebar { width: 100%; }
-	#boxes #modal {
-	  width:500px; 
-	  height:374px;
-	  background: url(../img/tab_bkgd.png) ;
-	}
+	
 }
 
 @media screen and (max-width: 480px) {

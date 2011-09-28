@@ -1,4 +1,4 @@
-<section id="modal" >
+<section id="page" >
 	<!-- start slipsum code -->
 
 <h1>We happy?</h1>

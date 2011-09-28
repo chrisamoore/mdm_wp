@@ -22,6 +22,8 @@
 	<div id="boxes">
 	    <div id="modal" class="window"> 
 	    	 <a href="#" class="close">X</a>
+	    	 	<div id="ajax-content">
+	    	 	</div>
 	    </div>
 	    <div id="mask"></div>
 	</div>

@@ -1,4 +1,9 @@
 $(function(){
+	/*== GLOBALS ==*/
+	var varX;
+	var pageVar;
+	var cursor;
+	
 	/*== MODAL WINDOW ==*/
 	//select all the a tag with name equal to modal
     $('a[name=modal]').click(function(e) {
@@ -7,12 +12,18 @@ $(function(){
         //Get the A tag
         var id = $(this).attr('href');
      
+     	// set overlay height
+		var docheight = $(document).height();
+		var fourth = $(document).height()/4;
+		var dh = docheight - fourth ; 
+     
         //Get the screen height and width
-        var maskHeight = $(document).height();
+        /*  var maskHeight = $(document).height(); */
         var maskWidth = $(window).width();
      
         //Set height and width to mask to fill up the whole screen
-        $('#mask').css({'width':maskWidth,'height':maskHeight});
+        $('#mask').css({'width':maskWidth,'height':dh});
+        $('#mask').css('margin-top', '100px');
          
         //transition effect     
         $('#mask').fadeIn(1000);    
@@ -23,14 +34,14 @@ $(function(){
         var winW = $(window).width();
                
         //Set the popup window to center
-        $(id).css('top',  winH/2-$(id).height()/2);
+        var num = 3;
+        $(id).css('top', 120);
         $(id).css('left', winW/2-$(id).width()/2);
      
         //transition effect
         $(id).fadeIn(2000); 
      
     });
-   
      
     //if close button is clicked
     $('.window .close').click(function (e) {
@@ -53,17 +64,36 @@ $(function(){
 		  isAnimated: true
 		});
 
-	var varX;
+	
+	// update the cursor
+	function mouse(mouseVar){
+			$('body').css('cursor', 'url(img/' + mouseVar + '_cursor.png), none');
+		}
 	// Tab buttons to set vars
     	$('#tab-content > *').click(function(){
     		// Get Variable for tab item 
     		varX = $(this).attr('title');
     		// Now to swap out cursor and stamp for this item and set color
-    		/* console.log(varX); */
+			mouse(varX);
     	});
 	
-	// AJAX Color box
-	/* $(".example5").colorbox(); */
+	// Nav buttons to set vars for AJAX
+    	$('nav > *').click(function(){
+    		// Get Variable for tab item 
+    		pageVar = $(this).attr('title');
+    		// Now swap out page var
+    		console.log(pageVar);
+    		 $.ajax({
+ 	        		  type: "POST",
+ 	        		  data: '',
+					  url: pageVar + '.php',
+					  success: function(data) 
+					  	{
+					  			$('#ajax-content').empty();
+						   		$('<div id="result"/>').html(data).fadeIn(1000).appendTo('#ajax-content');	
+					 	}
+	 			});// END AJAX
+    	});
 
 	// cursor to icon 
 	$('body').mouseout(function(){
@@ -77,15 +107,7 @@ $(function(){
           $('#canvas').mousemove(function(e){
                $('#mycursor').css('left', e.clientX - 20).css('top', e.clientY + 7);
      });
-	// set the cursor default
-	var cursor = 'dog_cursor';
-	
-	// update the cursor
-	function mouse(mouseVar){
-			$('body').css('cursor', 'url(img/' + mouseVar + '.png), none');
-		}
-	// fire the cursor
-	//mouse(cursor);
+
 	
 	
 	// set canvas to fullscreen
@@ -138,7 +160,7 @@ $(function(){
 		 });
 	$(document).click(function (){
 		// log function
-			console.log(varX)
+			//console.log(varX)
 		stamp();
 	});
 	
@@ -157,13 +179,6 @@ $(function(){
              });
       
              
-	// set overlay height
-		var docheight = $(document).height();
-		var third= $(document).height()/6;
-		var sixth = $(document).height()/12;
-		var dh = docheight - third ; 
-		
-	$('#cboxOverlay').css('height', dh);
-	$('#cboxOverlay').css('margin-top', '100px');
+
 	
 });//END Doc Ready
