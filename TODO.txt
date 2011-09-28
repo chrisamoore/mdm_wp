@@ -1,0 +1,29 @@
+TODO.txt
+	Full bleed canvas proportion
+	media queries
+	
+	modal math below nav 
+	modal media queries
+	clean up bkgd stripes (CSS3)
+	
+	press page masonry juggle animation
+	
+	about page 
+	projects page 
+	contact page 
+	hr inset look 
+	add logo 
+	
+	add cursor to pass from tab 
+	add stamps 
+	add color selection
+	add tool tip to tab 
+	remove scroll bar 
+	
+	clean up CSS 
+		convert to less.js 
+	clean up functions.js 
+	 
+	Add WP 
+	image upload settings 
+	
