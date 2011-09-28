@@ -111,8 +111,6 @@ $(function(){
           $('#canvas').mousemove(function(e){
                $('#mycursor').css('left', e.clientX - 20).css('top', e.clientY + 7);
      });
-
-	
 	
 	// set canvas to fullscreen
  	$("canvas").attr('height',$(window).height());
