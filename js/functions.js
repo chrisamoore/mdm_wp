@@ -94,7 +94,7 @@ $(function(){
 					  success: function(data) 
 					  	{
 					  			$('#ajax-content').empty();
-						   		$('<div id="result"/>').html(data).fadeIn(1000).appendTo('#ajax-content');	
+						   		$('<section id="page"/>').html(data).fadeIn(1000).appendTo('#ajax-content');	
 					 	}
 	 			});// END AJAX
     	});

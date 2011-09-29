@@ -4,11 +4,15 @@
 	<meta charset="utf-8" />
 	<title>MDM Architects</title>
 	
+	<meta name="author" content="Christopher Moore at StudioConover" />
+	<meta name="description" content=""/>
+		
 	<link rel="stylesheet" type="text/css" href="css/reset.css"media="screen" />
 	<link rel="stylesheet" type="text/css" href="css/style.css"media="screen" />
 	<link rel="stylesheet" type="text/css" href="css/media-queries.css"media="screen" />
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 	<link href='http://fonts.googleapis.com/css?family=Droid+Serif:700,400,400italic,700italic' rel='stylesheet' type='text/css'>
 	<!--[if IE]>
@@ -47,17 +51,16 @@
 				</nav>	
 			</header>
 		</section>
-	</div> <!-- END Wrapper -->
+	</div> <!-- END container -->
 	<footer>
 		<p>619.299.9111 <span>1530 West Lewis Street, San Diego CA 92103</span></p>
 		<hr/>
 	</footer>	
 	 <div id="tab" class="slide-out-div">
-	 <div id="tooltip"><p>Architect's Stamp</p></div>
- 		<a class="handle">+
- 			
- 		</a>
+	 	<div id="tooltip"><p>Architect's Stamp</p></div>
+ 		<a class="handle">+</a>
         <div id="tab-content">
+      			<!-- Set these via php Vars -->
 				<img src="img/tab_dog.png" class="stamp" title="dog"/>
 				<img src="img/tab_strat.png" class="stamp" title="strat"/>
 				<img src="img/tab_man.png" class="stamp" title="man"/>
@@ -69,11 +72,11 @@
 	<script type="text/javascript" src="http://www.google.com/jsapi"></script>
 	<script type="text/javascript">
 		google.load('jquery', '1');
+		/* add google analytics */
 	</script>
 		 <script type="text/javascript" src="js/jcanvas.min.js"></script>
 		 <script type="text/javascript" src="js/jquery.tabSlideOut.v1.3.js"></script>	
 		 <script type="text/javascript" src="js/masonry.js"></script>
 		 <script type="text/javascript" src="js/functions.js"></script>
-		 
 	</body>
 </html>

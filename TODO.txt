@@ -27,4 +27,6 @@ TODO.txt
 	
 	add analytics
 	robots.txt
+	
 	SEO 
+		ADD META DESCRIPTION
