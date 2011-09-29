@@ -54,7 +54,10 @@
 		<hr/>
 	</footer>	
 	 <div id="tab" class="slide-out-div">
- 		<a class="handle">+</a>
+	 <div id="tooltip"><p>Architect's Stamp</p></div>
+ 		<a class="handle">+
+ 			
+ 		</a>
         <div id="tab-content">
 				<img src="img/tab_dog.png" class="stamp" title="dog"/>
 				<img src="img/tab_strat.png" class="stamp" title="strat"/>

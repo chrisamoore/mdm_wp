@@ -167,6 +167,12 @@ $(function(){
 		stamp();
 	});
 	
+	$('#tooltip').hide();
+	$('.handle').hover(function(){
+			$('#tooltip').slideToggle("slow");
+		return true;
+	});
+	
 	// slide out tab 
 	 $('.slide-out-div').tabSlideOut({
                  tabHandle: '.handle',           //class of the element that will be your tab
