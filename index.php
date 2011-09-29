@@ -56,10 +56,11 @@
 		<p>619.299.9111 <span>1530 West Lewis Street, San Diego CA 92103</span></p>
 		<hr/>
 	</footer>	
+	
 	 <div id="tab" class="slide-out-div">
-	 	<div id="tooltip"><p>Architect's Stamp</p></div>
  		<a class="handle">+</a>
         <div id="tab-content">
+       
       			<!-- Set these via php Vars -->
 				<img src="img/tab_dog.png" class="stamp" title="dog"/>
 				<img src="img/tab_strat.png" class="stamp" title="strat"/>
@@ -67,6 +68,7 @@
 				<div class="stamp color" id="red" title="red"></div>
 				<div class="stamp color" id="orange" title="orange"></div>
 				<div class="stamp color" id="green" title="green"></div>
+				 <div id="tooltip"><p>Architect's Stamp</p></div>
 		</div>	
     </div>
 	<script type="text/javascript" src="http://www.google.com/jsapi"></script>

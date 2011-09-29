@@ -28,5 +28,7 @@ TODO.txt
 	add analytics
 	robots.txt
 	
+	fix tab to stay still while hover note appears 
+	
 	SEO 
 		ADD META DESCRIPTION

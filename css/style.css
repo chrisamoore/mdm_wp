@@ -84,8 +84,8 @@ header {
 h1 {
 	font-size:20px;
 	font-family:'Josefin Sans', sans-serif;
-	line-height:35px;
-	padding:10px;
+	line-height:25px;
+	padding:7px;
 	-webkit-transition-property:font-size;
 	-moz-transition-property:font-size;
 	transition-property:font-size;
@@ -313,24 +313,15 @@ footer {
 }
 
 #orange {
-	background:
-	
-/*orange*/
-#e3a51f;
+	background:#e3a51f; /*orange*/
 }
 
 #red {
-	background:#e33f1f;
-
-	
-/* red */
+	background:#e33f1f; /* red */
 }
 
 #green {
-	background:#0f941b;
-
-	
-/* green */
+	background:#0f941b; /* green */
 }
 
 .slide-out-div {
@@ -350,7 +341,7 @@ footer {
 	opacity:.7;
 	width:140px;
 	height:15px;
-	position:relative;
+	position:absolute;
 	z-index:10;
 	left:-180px;
 	padding:5px;
@@ -360,39 +351,44 @@ footer {
 #tooltip p {
 	float:right;
 }
-
-
 	
 /*------------------------------------*\
   PAGES -  
 \*------------------------------------*/
-#page aside {
+.left {
 	float:left;
 	clear:none;
-	width:295px;
 }
 
-#page section {
+.right{
 	float:right;
 	clear:none;
 }
 
-
-	
+.thin{
+width:295px;
+}
+.wide{
+ width:570px;
+}
+.arrow{
+	background: aqua;
+	height:13px ;
+	width:17px ;
+}
+.thumbs{
+	height: 300px;
+	width:  300px;
+	overflow: hidden;
+}
 /*------------------------------------*\
   ABOUT -  
 \*------------------------------------*/
-#page section figure {
-	width:570px;
-}
-
-
 	
 /*------------------------------------*\
   PRESS - Masonry 
 \*------------------------------------*/
 .box {
-	width:240px;
 	margin:10px;
 	float:left;
 }
@@ -402,9 +398,6 @@ figcaption {
 	clear:none;
 	padding-top:65px;
 }
-
-
-	
 /*------------------------------------*\
   CONTACT -  
 \*------------------------------------*/
@@ -449,8 +442,10 @@ button {
 	background:#efefef;
 }
 
+/*------------------------------------*\
+ 	PROJECTS
+\*------------------------------------*/
 
-	
 /*------------------------------------*\
   Modal
 \*------------------------------------*/

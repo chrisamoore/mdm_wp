@@ -1,5 +1,31 @@
-<h1>We happy?</h1>
-<p>Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in American crime. Do you believe that shit? It actually says that in the little book that comes with it: the most popular gun in American crime. Like they're actually proud of that shit. </p>
-
-<h1>We happy?</h1>
-<p>Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and become television programs. Some don't, become nothing. She starred in one of the ones that became nothing.</p>
+<section class="left wide">
+	<figure>
+		<!-- 709 x 473  -->
+		<figure>
+			<img src="img/drawing.png" title="sketch" />
+			<figcaption class="left">
+				<p >Resort Runway</p>
+			</figcaption>
+		</figure>
+		<div class="left arrow"></div> 
+		<p class="left">Image X of X </p>
+		<div class="right arrow"></div>
+	</figure>
+</section>
+<aside class="right thin">
+	<!-- 246 x 239 -->
+	<h1>Veterinary Projects</h1>
+	<h2>Mission Animal and Bird Hospital</h2>
+	<p>lkjlkjEiusmod leberkäse andouille, cow cillum spare ribs sausage bresaola bacon incididunt esse turducken drumstick brisket. Cow t-bone eiusmod, meatloaf officia esse eu culpa ribeye. Sint shoulder occaecat short ribs drumstick. Pork chop reprehenderit aliqua spare ribs laboris, dolor adipisicing filet mignon jowl tenderloin jerky an</p>
+	<div class="left arrow"></div>
+		<p class="left">Project X of X </p>
+	<div class="right arrow"></div>
+    <!-- 4 up @ 100 x 100 -->
+    <section class="thumbs">
+    	<img class="box" src="http://lorempixum.com/100/100/food" />
+		<img class="box" src="http://lorempixum.com/100/100/sports" />
+		<img class="box" src="http://lorempixum.com/100/100/technics" />
+		<img class="box" src="http://lorempixum.com/100/100/food" />
+	</section>
+	<p class="right">More Images</p>
+</aside>
