@@ -1,22 +1,20 @@
 <section id="page" >
 	<aside>
-		<section>
-			<h1>Mel McGee</h1>
-				<p class="italic">Architect</p>
-				<p>phone 619-299-911</p>
-				<p>email mel@mdm.com</p>
-				<p class="bio">You think water moves fast? You should see ice. It moves like it has a mind. Like it knows it killed the world once and got a taste for murder.</p>
-			<h1>Some Other Dude</h1>
-				<p class="italic">Architect</p>
-				<p>phone 619-299-911</p>
-				<p>email mel@mdm.com</p>
-				<p class="bio">You think water moves fast? You should see ice. It moves like it has a mind. Like it knows it killed the world once and got a taste for murder.</p>
-			<h1>Some Other Dude</h1>
-				<p class="italic">Architect</p>
-				<p>phone 619-299-911</p>
-				<p>email mel@mdm.com</p>
-				<p class="bio">You think water moves fast? You should see ice. It moves like it has a mind. Like it knows it killed the world once and got a taste for murder.</p>
-		</section>
+		<h1>Mel McGee</h1>
+			<p class="italic">Architect</p>
+			<p>phone 619-299-911</p>
+			<p>email mel@mdm.com</p>
+			<p class="bio">You think water moves fast? You should see ice. It moves like it has a mind. Like it knows it killed the world once and got a taste for murder.</p>
+		<h1>Some Other Dude</h1>
+			<p class="italic">Architect</p>
+			<p>phone 619-299-911</p>
+			<p>email mel@mdm.com</p>
+			<p class="bio">You think water moves fast? You should see ice. It moves like it has a mind. Like it knows it killed the world once and got a taste for murder.</p>
+		<h1>Some Other Dude</h1>
+			<p class="italic">Architect</p>
+			<p>phone 619-299-911</p>
+			<p>email mel@mdm.com</p>
+			<p class="bio">You think water moves fast? You should see ice. It moves like it has a mind. Like it knows it killed the world once and got a taste for murder.</p>
 	</aside>
 	<section>
 		<form>

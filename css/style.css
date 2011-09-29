@@ -196,7 +196,21 @@ footer {
   #tooltip p{
   	float: right;
   	}
-  
+  	
+ /*------------------------------------*\
+  PAGES -  
+\*------------------------------------*/ 	
+#page aside{
+	float: left;
+	clear: none;
+	width: 295px;
+}
+#page section{
+	float: right;
+	clear: none;
+}  
+
+
 /*------------------------------------*\
   PRESS - Masonry 
 \*------------------------------------*/
@@ -220,15 +234,6 @@ figcaption{
 .bio{
 	font-size: 12px;
 	width: 300px;
-}
-#page aside{
-	float: left;
-	clear: none;
-}
-#page section{
-	float: left;
-	clear: none;
-	margin: 0 0 0 50px;
 }
 label, input, textarea{
 	display: block;
@@ -257,6 +262,11 @@ button{
 	float: right;
 	background: #efefef;
 }
+/*------------------------------------*\
+  ABOUT -  
+\*------------------------------------*/
+
+
 /*------------------------------------*\
   Modal
 \*------------------------------------*/

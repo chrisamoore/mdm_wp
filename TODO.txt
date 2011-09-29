@@ -8,9 +8,7 @@ TODO.txt
 	
 	press page masonry juggle animation
 	
-	about page   // waiting on Creative 
 	projects page 
-	contact page  // waiting on Creative
 	hr inset look 
 	add logo 
 	
@@ -27,4 +25,6 @@ TODO.txt
 	Add WP 
 	image upload settings 
 	
+	add analytics
+	robots.txt
 	SEO 

@@ -14,7 +14,6 @@
 	<!--[if IE]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
-
 </head>
 <body>
 	<!-- Modal Window -->
@@ -75,5 +74,6 @@
 		 <script type="text/javascript" src="js/jquery.tabSlideOut.v1.3.js"></script>	
 		 <script type="text/javascript" src="js/masonry.js"></script>
 		 <script type="text/javascript" src="js/functions.js"></script>
+		 
 	</body>
 </html>
