@@ -6,7 +6,8 @@
 	
 	<meta name="author" content="Christopher Moore at StudioConover" />
 	<meta name="description" content=""/>
-		
+	<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+
 	<link rel="stylesheet" type="text/css" href="css/reset.css"media="screen" />
 	<link rel="stylesheet" type="text/css" href="css/style.css"media="screen" />
 	<link rel="stylesheet" type="text/css" href="css/media-queries.css"media="screen" />
@@ -74,6 +75,7 @@
 	<script type="text/javascript" src="http://www.google.com/jsapi"></script>
 	<script type="text/javascript">
 		google.load('jquery', '1');
+		google.load('jqueryui', '1');
 		/* add google analytics */
 	</script>
 		 <script type="text/javascript" src="js/jcanvas.min.js"></script>
