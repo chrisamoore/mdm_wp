@@ -238,7 +238,13 @@ $(function(){
 		        "width":newImage.width + 'px',
 		        "height":newImage.height + 'px' 
 		    });
-		
+			
+			/*== RESPONSIVE ==*/
+			//fix mask width too
+			 $('#mask').css('width',newImage.width +'px' );
+			 $('#modal').css('width',newImage.width/3 *2 +'px' );
+			/*== RESPONSIVE ==*/
+			
 		    //console.log(fixHeight, image, page);
 	};
 	
