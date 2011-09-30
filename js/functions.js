@@ -94,7 +94,11 @@ $(function(){
 					  success: function(data) 
 					  	{
 					  			$('#ajax-content').empty();
-						   		$('<section id="page"/>').html(data).fadeIn(1000).appendTo('#ajax-content');	
+						   		$('<section id="page"/>').html(data).fadeIn(1000).appendTo('#ajax-content');
+						   		// Delegate functions to children
+								$('nav').delegate('div', 'click', function(){
+								 	console.log('click');
+								});
 					 	}
 	 			});// END AJAX
     	});
@@ -191,17 +195,8 @@ $(function(){
                  fixedPosition: false            //options: true makes it stick(fixed position) on scroll
              });
              
-     /*
-$('#l_project_nav').hover(function(){ 
-     		$(this).addClass('hover') 
-     	},
-     	function(){ 
-     		$(this).removeClass('hover') 
-     	});
-*/
+     
      // Arrow Click funtions
-     $('#l_image_nav').click(function(){
-     	alert('click');
-     });
+    
       	
 });//END Doc Ready

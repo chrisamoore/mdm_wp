@@ -20,9 +20,9 @@
 	<h2>Mission Animal and Bird Hospital</h2>
 	<p>lkjlkjEiusmod leberkäse andouille, cow cillum spare ribs sausage bresaola bacon incididunt esse turducken drumstick brisket. Cow t-bone eiusmod, meatloaf officia esse eu culpa ribeye. Sint shoulder occaecat short ribs drumstick. Pork chop reprehenderit aliqua spare ribs laboris, dolor adipisicing filet mignon jowl tenderloin jerky an</p>
 	<nav class="img_nav center">
-		<div class="left arrow"  id="l_project_nav"></div>
+		<div class="left arrow" id="l_arrow"></div>
 			<p class="left">Project X of X </p>
-		<div class="right arrow" id="r_project_nav"></div>
+		<div class="right arrow" id="r_arrow"></div>
    </nav>
     <!-- 4 up @ 100 x 100 -->
     <section class="thumbs right">
