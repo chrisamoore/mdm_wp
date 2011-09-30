@@ -8,7 +8,7 @@ Your bones don't break, mine do. That's clear. Your cells react to bacteria and 
 </aside>
 <section class="right wide">
 	<figure>
-		<img src="img/drawing.png" title="sketch"/>
+		<img src="img/elements/drawing.png" title="sketch"/>
 		<figcaption>FPO Inspiration for Blik Studio</figcaption>
 	</figure>
 </section>

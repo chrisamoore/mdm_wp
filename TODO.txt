@@ -1,5 +1,4 @@
 TODO.txt
-	Full bleed canvas proportion
 	media queries
 	
 	modal media queries
@@ -8,13 +7,11 @@ TODO.txt
 	
 	press page masonry juggle animation
 	
-	projects page 
 	hr inset look 
 	add logo 
 	
 	add stamps // need images
 	add color selection // 
-	add tool tip to tab 
 		
 	clean up CSS 
 		convert to less.js 
@@ -25,8 +22,6 @@ TODO.txt
 	
 	add analytics
 	robots.txt
-	
-	fix tab to stay still while hover note appears 
-	
+		
 	SEO 
 		ADD META DESCRIPTION

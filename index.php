@@ -63,9 +63,9 @@
         <div id="tab-content">
        
       			<!-- Set these via php Vars -->
-				<img src="img/tab_dog.png" class="stamp" title="dog"/>
-				<img src="img/tab_strat.png" class="stamp" title="strat"/>
-				<img src="img/tab_man.png" class="stamp" title="man"/>
+				<img src="img/stamps/icons/tab_dog.png" class="stamp" title="dog"/>
+				<img src="img/stamps/icons/tab_strat.png" class="stamp" title="strat"/>
+				<img src="img/stamps/icons/tab_man.png" class="stamp" title="man"/>
 				<div class="stamp color" id="red" title="red"></div>
 				<div class="stamp color" id="orange" title="orange"></div>
 				<div class="stamp color" id="green" title="green"></div>
@@ -79,8 +79,8 @@
 		/* add google analytics */
 	</script>
 		 <script type="text/javascript" src="js/jcanvas.min.js"></script>
-		 <script type="text/javascript" src="js/jquery.tabSlideOut.v1.3.js"></script>	
-		 <script type="text/javascript" src="js/masonry.js"></script>
+		 <script type="text/javascript" src="js/jquery.tabSlideOut.v1.3.min.js"></script>	
+		 <script type="text/javascript" src="js/masonry.min.js"></script>
 		 <script type="text/javascript" src="js/functions.js"></script>
 	</body>
 </html>

@@ -55,28 +55,8 @@ $(function(){
         $(this).hide();
         $('.window').hide();
     });     
-        
-	/*== PRESS PAGE - MASONRY ==*/
-	// Masonry 
-	$('.press').masonry({
-		  itemSelector: '.box',
-		  columnWidth: 100,
-		  isAnimated: true
-		});
-
-	
-	// update the cursor
-	function mouse(mouseVar){
-			$('body').css('cursor', 'url(img/' + mouseVar + '_cursor.png), none');
-		}
-	// Tab buttons to set vars
-    	$('#tab-content > *').click(function(){
-    		// Get Variable for tab item 
-    		varX = $(this).attr('title');
-    		// Now to swap out cursor and stamp for this item and set color
-			mouse(varX);
-    	});
-	
+    
+    /*== AJAX ==*/
 	// Nav buttons to set vars for AJAX
     	$('nav > *').click(function(){
     		// Get Variable for tab item 
@@ -100,7 +80,21 @@ $(function(){
 					 	}
 	 			});// END AJAX
     	});
+    	
+	/*== PRESS PAGE - MASONRY ==*/
+	// Masonry 
+	$('.press').masonry({
+		  itemSelector: '.box',
+		  columnWidth: 100,
+		  isAnimated: true
+		});
 
+	/*== CURSOR ==*/
+	// update the cursor
+	function mouse(mouseVar){
+			$('body').css('cursor', 'url(img/stamps/cursors/' + mouseVar + '_cursor.png), none');
+		}
+		
 	// cursor to icon 
 	$('body').mouseout(function(){
                $('#mycursor').hide();
@@ -113,26 +107,8 @@ $(function(){
           $('#canvas').mousemove(function(e){
                $('#mycursor').css('left', e.clientX - 20).css('top', e.clientY + 7);
      });
-	
-	// set canvas to fullscreen
- 	$("canvas").attr('height',$(window).height());
-	$("canvas").attr('width', $(window).width());
-	
-
-	//load bkgd img to canvas
-	function dwg(){
-		$("canvas").drawImage({
-		  		source: "img/bkgd.jpg",
-		 		x: 0, 
-		 		y: 0, 
-		 		height : $(window).height(),
-		 		width : $(window).width(),
-		 		fromCenter: false
-			});
-		}
-	dwg();
-	
-	// fire stamp function 
+     
+     //stamp function 
 	function stamp(){
 			$("canvas").drawImage({
 		  		source: "img/"+ varX +"_stamp.png",
@@ -151,6 +127,7 @@ $(function(){
 		 	}; 
 		 });
 		 
+	// Stamp only if no modal
 	$(document).click(function (){
 		// fire off stamp
 		if ($('#modal').is(":visible")){
@@ -160,6 +137,16 @@ $(function(){
 		}
 	});
 	
+	/*== TAB ==*/	
+	// Tab buttons to set vars
+    	$('#tab-content > *').click(function(){
+    		// Get Variable for tab item 
+    		varX = $(this).attr('title');
+    		// Now to swap out cursor and stamp for this item and set color
+			mouse(varX);
+    	});
+
+		
 	//hide tooltip and show on hover
 	$('#tooltip').hide();
 	$('.handle').hover(function(){
@@ -170,16 +157,34 @@ $(function(){
 	// slide out tab 
 	 $('.slide-out-div').tabSlideOut({
                  tabHandle: '.handle',           //class of the element that will be your tab
-                 pathToTabImage: 'img/plus.png', //path to the image for the tab (optionaly can be set using css)
+                 pathToTabImage: 'img/icons/plus.png', //path to the image for the tab (optionaly can be set using css)
                  imageHeight: '185px',           //height of tab image
                  imageWidth: '17px',             //width of tab image    
                  tabLocation: 'right',           //side of screen where tab lives, top, right, bottom, or left
                  speed: 300,                     //speed of animation
                  action: 'click',                //options: 'click' or 'hover', action to trigger animation
-              //   topPos: 600+ 'px',                //position from the top
+                 //topPos: 600+ 'px',            //position from the top
                  fixedPosition: false            //options: true makes it stick(fixed position) on scroll
              });
+             
+         //load bkgd img to canvas
+		function dwg(){
+			$("canvas").drawImage({
+			  		source: "img/elements/bkgd.jpg",
+			 		x: 0, 
+			 		y: 0, 
+			 		height : $(window).height(),
+			 		width : $(window).width(),
+			 		fromCenter: false
+				});
+			}
+		dwg();
+            
         /*==RESIZE CANVAS TO MAINTAIN PROPORTION ==*/
+        // set canvas to fullscreen
+	 	$("canvas").attr('height',$(window).height());
+		$("canvas").attr('width', $(window).width());
+
 	    var fixDimensions = function(){
 	    
 		    //Get the image dimensions:
@@ -234,7 +239,7 @@ $(function(){
 		        "height":newImage.height + 'px' 
 		    });
 		
-		    console.log(fixHeight, image, page);
+		    //console.log(fixHeight, image, page);
 	};
 	
 	fixDimensions();
