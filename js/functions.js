@@ -164,9 +164,14 @@ $(function(){
 		 
 	$(document).click(function (){
 		// fire off stamp
-		stamp();
+		if ($('#modal').is(":visible")){
+			// do nothing prevent stamp while modal is up
+		}else{
+			stamp();
+		}
 	});
 	
+	//hide tooltip and show on hover
 	$('#tooltip').hide();
 	$('.handle').hover(function(){
 			$('#tooltip').slideToggle("slow");
@@ -185,5 +190,18 @@ $(function(){
               //   topPos: 600+ 'px',                //position from the top
                  fixedPosition: false            //options: true makes it stick(fixed position) on scroll
              });
+             
+     /*
+$('#l_project_nav').hover(function(){ 
+     		$(this).addClass('hover') 
+     	},
+     	function(){ 
+     		$(this).removeClass('hover') 
+     	});
+*/
+     // Arrow Click funtions
+     $('#l_image_nav').click(function(){
+     	alert('click');
+     });
       	
 });//END Doc Ready

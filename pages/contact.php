@@ -19,9 +19,9 @@
 	<form>
 		<label for="name">Name:</label>
 			<input type="text"/>
-		<label for="name">Email:</label>
+		<label for="email">Email:</label>
 			<input type="text"/>
-		<label for="name">Phone:</label>
+		<label for="phone">Phone:</label>
 			<input type="text"/>
 		<label for="msg">Name:</label>
 			<textarea>Shoot me a message</textarea>
