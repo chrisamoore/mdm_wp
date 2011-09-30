@@ -4,10 +4,6 @@ $(function(){
 	var pageVar;
 	var cursor;
 	
-	/*== HIDE SCROLL BARS ==*/
-	$("html").css("overflow", "hidden");
-	$("html").css("overflow", "auto");
-	
 	/*== MODAL WINDOW ==*/
 	//select all the a tag with name equal to modal
     $('a[name=modal]').click(function(e) {
@@ -118,9 +114,11 @@ $(function(){
                $('#mycursor').css('left', e.clientX - 20).css('top', e.clientY + 7);
      });
 	
+	
 	// set canvas to fullscreen
  	$("canvas").attr('height',$(window).height());
 	$("canvas").attr('width', $(window).width());
+	
 
 	//load bkgd img to canvas
 	function dwg(){
@@ -143,20 +141,6 @@ $(function(){
 		 		y: $.mynamespace.ypos
 			});
 		}
-		
-	// resize window event
-	$(window).resize(function(){
-			//console.log($(window).height()+', '+$(window).width());
-			$("canvas").attr('height',$(window).height());
-			$("canvas").attr('width', $(window).width());
-			dwg();
-		});
-		
-	// Stop distort w/ jcanvas
-	$("canvas").scaleCanvas({
-			 x: 100, y: 100,
-		 	 width: 1, height: 1
-	})
 	
 	// get cursor coordinates
 	 $(document).mousemove(function(e){ 

@@ -15,9 +15,7 @@ TODO.txt
 	add stamps // need images
 	add color selection // 
 	add tool tip to tab 
-	
-	Create gallery
-	
+		
 	clean up CSS 
 		convert to less.js 
 	clean up functions.js 
