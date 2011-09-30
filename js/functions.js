@@ -97,7 +97,9 @@ $(function(){
 						   		$('<section id="page"/>').html(data).fadeIn(1000).appendTo('#ajax-content');
 						   		// Delegate functions to children
 								$('nav').delegate('div', 'click', function(){
-								 	console.log('click');
+									// grab arrow button events
+									var name = $(this).attr('id');
+								 	console.log(name);
 								});
 					 	}
 	 			});// END AJAX
