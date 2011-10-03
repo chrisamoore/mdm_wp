@@ -11,7 +11,7 @@ IPHONE 320 wide (portrait)  background: aqua;
 	body { font-size: 13px; }
 }
 
-/* IPAD  */
+/* IPAD (portrait) */
 @media screen and (max-width: 768px) 	{
 	.browser{
 		background: blue;
@@ -66,6 +66,20 @@ IPHONE 320 wide (portrait)  background: aqua;
 	 
 	 
 }
+/* IPAD (Landscape) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+	.browser{
+		background: fuchsia;
+	}
+	.right.wide img {
+		max-width: 450px;
+	}
+	 .right.wide figcaption{
+	 display: none;
+	 }
+	
+}
+
 /* IPAD  */
 /* IPHONE  */
 @media screen and (max-width: 480px) {

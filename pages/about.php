@@ -9,6 +9,6 @@ Your bones don't break, mine do. That's clear. Your cells react to bacteria and 
 <section class="right wide">
 	<figure>
 		<img src="img/elements/drawing.png" title="sketch" class="right"/>
-		<figcaption class="right clearfix">FPO Inspiration for Blik Studio</figcaption>
+		<figcaption class="right ">FPO Inspiration for Blik Studio</figcaption>
 	</figure>
 </section>
