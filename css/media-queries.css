@@ -1,25 +1,93 @@
+/*
+IPAD 1024px wide (landscape)   background: aqua;
+IPAD 768px wide (portrait)    background: aqua;
+IPHONE 480 wide (landscape)  background: aqua;
+IPHONE 320 wide (portrait)  background: aqua;
+*/
+
 @media screen and (max-width: 478px) 	{
 	h1 { font-size: 16px; padding: 1px; }
 	h2 { font-size: 10px; padding: 1px; }
 	body { font-size: 13px; }
 }
 
+
 @media screen and (max-width: 740px) 	{
+	.browser{
+		background: blue;
+	}
+	html, body {
+		font-size: 10px; 
+		padding: 1px;
+		margin: 0;
+	}
+
 	.left-col { width: 100%; }
 	.sidebar { width: 100%; }
 	
 }
-
+/* IPHONE  */
 @media screen and (max-width: 480px) {
+	.browser{
+		background: aqua;
+	}
+	html, body {
+		font-size: 10px; 
+		padding: 1px;
+		margin: 0;
+	}
 	#tab{
 		display: none;
-	}
-	h1 { font-size: 10px; padding: 1px; }
-	h2 { font-size: 8px; padding: 1px; }
-	body { font-size: 6px; }
+	}	
 	
-}
-
+	h1,nav { 
+		font-size: 12px; 
+		line-height: 12px;
+	}
+	h2{
+		font-size: 10px;
+	}
+	p{
+		max-width: 200px;
+	}
+		nav a{
+			margin-top: -10px;
+			}
+	#boxes .window{
+		padding: 5px;
+		overflow: scroll;
+	}
+	#ajax-content {
+		width: 200px;
+	}
+/* 	CONTACT PAGE  */
+	.left .bio, form{
+		display: none;
+	}
+	.italic{
+		padding: 0 0 0 0;
+	}
+		p a{
+		color: blue;
+		text-decoration: underline;
+		}
+/* PRESS */
+		.box {
+			margin: 2px;
+			overflow: hidden;
+			width: 60px;
+		}
+			.box img {
+				width: 20px;
+			}
+			.box figcaption {
+				padding: 0;
+				font-size: 8px;
+				float: inherit;
+			}
+/* ABOUT */
+} 
+/* IPHONE */
 img {
 	max-width: 100%;
 	height: auto;

@@ -40,6 +40,7 @@
 	<div id="container">
 		<section id="content">
 			<header>
+				<div class="left browser"></div>
 				<!-- <a href="#"><img class="logo" src="imgs/logo.png"/></a> -->
 				<h1> Melvin Dalton McGEE ARCHITECTS, INC.</h1>
 				<hr/>

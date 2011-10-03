@@ -23,8 +23,19 @@ $(function(){
      
         //Set height and width to mask to fill up the whole screen
         $('#mask').css({'width':maskWidth,'height':dh});
-        $('#mask').css('margin-top', '100px');
-         
+        
+        	/*==IPHONE ONLY TEST==*/
+			if ($(window).width() === 320){
+				$('#mask').css('margin-top', '50px');
+				$('#boxes #modal').css('margin-top', '-50px');
+				$('#boxes #modal').css('margin-left', '-20px');
+				$('#boxes #modal').css('height', '200px');
+				$('#boxes #modal').css('background', '#ffffff');
+			}else{
+       			 $('#mask').css('margin-top', '100px');
+       			 }
+         	/*==IPHONE ONLY TEST==*/
+         	
         //transition effect     
         $('#mask').fadeIn(1000);    
         $('#mask').fadeTo("slow",0.8);  
@@ -250,5 +261,8 @@ $(function(){
 	
 	fixDimensions();
 	$(window).resize(fixDimensions);
+	
 	/*==RESIZE CANVAS TO MAINTAIN PROPORTION ==*/
+	
+
 });//END Doc Ready

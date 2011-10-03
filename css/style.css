@@ -15,6 +15,14 @@ TEXT
 	Dark-gray:  #3b3b3b
 	Light-gray: #808285
 \*------------------------------------*/
+.browser{
+	height: 20px;
+	width: 100%;
+	background: red;
+	position: absolute;
+	z-index: 99999999;
+}
+
 ::-moz-selection {
 	background-color:#91D8f7;
 	color:#fff;
@@ -183,6 +191,10 @@ img {
 	border:none;
 	margin:0;
 	padding:0;
+	border: 0;
+width: 100%;
+display: block;
+max-width: 100%;
 }
 hr {
 	border-top:2px solid #808285;
