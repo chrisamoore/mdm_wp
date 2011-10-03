@@ -17,17 +17,31 @@ IPHONE 320 wide (portrait)  background: aqua;
 		background: blue;
 	}
 	html, body {
-		font-size: 10px; 
+		font-size: 12px; 
 		padding: 1px;
 		margin: 0;
 	}
-
+	
+	h1,nav { 
+		font-size: 14px; 
+		line-height: 12px;
+	}
+	.box{
+		margin:5px;
+	}
+		.box img{
+			width: 43%;
+		}
+		.box figcaption{
+			float: left;
+			margin: 0 0 5px 0;
+		}
 	.left-col { width: 100%; }
 	.sidebar { width: 100%; }
 	.big_img{
 		width: 280px;
 	}
-	.left.wide, .left.thin{
+	.left.wide{
 		width: 280px;
 		background: aqua;
 	}
@@ -39,6 +53,18 @@ IPHONE 320 wide (portrait)  background: aqua;
 		width: 260px;
 		padding: 5px;
 	}
+	
+	 .left.thin{
+	 width: 200px;
+	 }
+	 .right.wide img{
+	 	width: 300px;
+	 }
+	 .right.wide figcaption{
+	 display: none;
+	 }
+	 
+	 
 }
 /* IPAD  */
 /* IPHONE  */

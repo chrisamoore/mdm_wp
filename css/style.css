@@ -345,7 +345,7 @@ footer {
 	margin: 0 auto;
 }
 .thin{
-max-width:295px;
+max-width:230px;
 }
 .wide{
  max-width:570px;
@@ -363,13 +363,17 @@ max-width:295px;
 	}
 .thumbs{
 	height: 300px;
-	width:  300px;
+	width:  240px;
 	overflow: hidden;
 }
 .img_nav{
 	width: 150px;
 	height: 25px;
 }
+.clear{
+	clear: both;
+}
+
 
 /*------------------------------------*\
   PRESS - Masonry 
