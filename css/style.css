@@ -187,14 +187,11 @@ pre {
 	overflow:scroll;
 	font-size:10px;
 }
-img {
+img, .big_img {
 	border:none;
 	margin:0;
 	padding:0;
 	border: 0;
-width: 100%;
-display: block;
-max-width: 100%;
 }
 hr {
 	border-top:2px solid #808285;
@@ -348,10 +345,10 @@ footer {
 	margin: 0 auto;
 }
 .thin{
-width:295px;
+max-width:295px;
 }
 .wide{
- width:570px;
+ max-width:570px;
 }
 .arrow{
 	height:15px ;
@@ -381,11 +378,7 @@ width:295px;
 	margin:10px;
 	float:left;
 }
-figcaption {
-	float:right;
-	clear:none;
-	padding-top:65px;
-}
+
 /*------------------------------------*\
   Modal
 \*------------------------------------*/	

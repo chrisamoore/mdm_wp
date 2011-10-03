@@ -11,8 +11,8 @@ IPHONE 320 wide (portrait)  background: aqua;
 	body { font-size: 13px; }
 }
 
-
-@media screen and (max-width: 740px) 	{
+/* IPAD  */
+@media screen and (max-width: 768px) 	{
 	.browser{
 		background: blue;
 	}
@@ -24,8 +24,23 @@ IPHONE 320 wide (portrait)  background: aqua;
 
 	.left-col { width: 100%; }
 	.sidebar { width: 100%; }
-	
+	.big_img{
+		width: 280px;
+	}
+	.left.wide, .left.thin{
+		width: 280px;
+		background: aqua;
+	}
+	form{
+		width: 280px;
+		padding: 5px;
+	}
+	input, textarea{
+		width: 260px;
+		padding: 5px;
+	}
 }
+/* IPAD  */
 /* IPHONE  */
 @media screen and (max-width: 480px) {
 	.browser{
@@ -85,7 +100,9 @@ IPHONE 320 wide (portrait)  background: aqua;
 				font-size: 8px;
 				float: inherit;
 			}
-/* ABOUT */
+/* PROJECTS */
+	
+
 } 
 /* IPHONE */
 img {

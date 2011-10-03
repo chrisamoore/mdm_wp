@@ -25,6 +25,6 @@
 			<input type="text"/>
 		<label for="msg">Name:</label>
 			<textarea>Shoot me a message</textarea>
-			<button>Submit</button>
+			<button class="left">Submit</button>
 	</form>
 </section>

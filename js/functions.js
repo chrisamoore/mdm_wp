@@ -14,23 +14,24 @@ $(function(){
      
      	// set overlay height
 		var docheight = $(window).height();
-		var fourth = $(window).height()/4;
-		var dh = docheight - fourth ; 
-     
+	 
         //Get the screen height and width
         /*  var maskHeight = $(document).height(); */
         var maskWidth = $(window).width();
      
         //Set height and width to mask to fill up the whole screen
-        $('#mask').css({'width':maskWidth,'height':dh});
+        $('#mask').css({'width':maskWidth,'height':docheight/4*3});
         
         	/*==IPHONE ONLY TEST==*/
 			if ($(window).width() === 320){
 				$('#mask').css('margin-top', '50px');
-				$('#boxes #modal').css('margin-top', '-50px');
-				$('#boxes #modal').css('margin-left', '-20px');
-				$('#boxes #modal').css('height', '200px');
-				$('#boxes #modal').css('background', '#ffffff');
+				
+				$('#boxes #modal').css({
+										'margin-top' : '-50px',
+										'margin-left': '-20px',
+										'height'     : '200px',
+										'background' : '#ffffff'
+									});
 			}else{
        			 $('#mask').css('margin-top', '100px');
        			 }
@@ -51,7 +52,7 @@ $(function(){
      
         //transition effect
         $(id).fadeIn(2000); 
-     
+    
     }); 
      
     //if close button is clicked
@@ -252,8 +253,14 @@ $(function(){
 			
 			/*== RESPONSIVE ==*/
 			//fix mask width too
-			 $('#mask').css('width',newImage.width +'px' );
-			 $('#modal').css('width',newImage.width/3 *2 +'px' );
+			  var ww = $(window).width(),
+		          wh = $(window).height(), 
+		          mh = $('#mask').height();
+			$('#mask').css({'width': ww });
+			$('#modal').css({
+								'width': ww/4*3, 
+								'margin-left': 'auto'
+							});			
 			/*== RESPONSIVE ==*/
 			
 		    //console.log(fixHeight, image, page);

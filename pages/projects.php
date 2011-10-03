@@ -2,8 +2,8 @@
 	<figure>
 		<!-- 709 x 473  -->
 		<figure>
-			<img src="img/elements/drawing.png" title="sketch" />
-			<figcaption class="left">
+			<img src="img/elements/drawing.png" title="sketch" class="big_img"/>
+			<figcaption class="right">
 				<p class="left">Resort Runway</p>
 			</figcaption>
 		</figure>
