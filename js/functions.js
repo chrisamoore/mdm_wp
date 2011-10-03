@@ -111,7 +111,7 @@ $(function(){
      //stamp function 
 	function stamp(){
 			$("canvas").drawImage({
-		  		source: "img/"+ varX +"_stamp.png",
+		  		source: "img/stamps/stamps/"+ varX +"_stamp.png",
 		 		x: $.mynamespace.xpos, 
 		 		y: $.mynamespace.ypos
 			});
